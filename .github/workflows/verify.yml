@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: MIT
+name: Verify hardware files
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify downloadable files
+        run: python3 -B tools/verify.py
+      - name: Run tests
+        run: python3 -B -m unittest discover -s tests -v

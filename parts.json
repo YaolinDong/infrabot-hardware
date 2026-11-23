@@ -1,0 +1,742 @@
+{
+  "model": "InfraBot H7C",
+  "units": "mm",
+  "density_g_per_cm3": 2.7,
+  "assembly": {
+    "step": "assembly/infrabot-h7c_assembly.step",
+    "sha256": "fe0aedb5b16620a3e8f147f8a57396cba78cbd17feadd1b80d80a0cdc47c8d3d"
+  },
+  "parts": [
+    {
+      "id": "baselink_base_plate",
+      "link": "baselink",
+      "name": "Base plate",
+      "name_zh": "底板",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        200.0,
+        110.0,
+        14.0
+      ],
+      "volume_mm3": 274657.7,
+      "mass_g": 741.6,
+      "step": "parts/baselink/baselink_base_plate.step",
+      "sha256": "b3b1a229bbabe08fe31d735f6f46fecfc84bb1ba11da7547b7b6d2d50dbc6b1e"
+    },
+    {
+      "id": "baselink_housing",
+      "link": "baselink",
+      "name": "Base housing",
+      "name_zh": "外支柱",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        114.0,
+        114.0,
+        59.7
+      ],
+      "volume_mm3": 57304.3,
+      "mass_g": 154.7,
+      "step": "parts/baselink/baselink_housing.step",
+      "sha256": "41eafa4afd58f39229e93233e0d8cb1abcdc4fb85d77577ed86a82d69772d6f8"
+    },
+    {
+      "id": "baselink_bearing_lower_cover",
+      "link": "baselink",
+      "name": "Lower bearing cover",
+      "name_zh": "轴承下盖",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        114.0,
+        114.0,
+        8.5
+      ],
+      "volume_mm3": 33951.7,
+      "mass_g": 91.7,
+      "step": "parts/baselink/baselink_bearing_lower_cover.step",
+      "sha256": "2baee44fc96152423e26a8b830e96f601140b1fd51a46ec71ce02cd4dd722723"
+    },
+    {
+      "id": "baselink_top_cover",
+      "link": "baselink",
+      "name": "Top cover",
+      "name_zh": "上封盖",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        114.0,
+        114.0,
+        5.0
+      ],
+      "volume_mm3": 18946.7,
+      "mass_g": 51.2,
+      "step": "parts/baselink/baselink_top_cover.step",
+      "sha256": "3a392b940c2da4c36edda2b6ff44aedd2feeb406e492bd389b9f8ce027b921db"
+    },
+    {
+      "id": "link1_motor_bracket_base",
+      "link": "link1",
+      "name": "Motor bracket base",
+      "name_zh": "电机支架底板",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        80.0,
+        76.6,
+        10.0
+      ],
+      "volume_mm3": 58149.3,
+      "mass_g": 157.0,
+      "step": "parts/link1/link1_motor_bracket_base.step",
+      "sha256": "7a4149b43130e65c157f07fd84df0c28719f983c23a959d98f3bc431cf6dd17f"
+    },
+    {
+      "id": "link1_motor_bracket_left",
+      "link": "link1",
+      "name": "Motor bracket, left",
+      "name_zh": "电机支架左",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        110.0,
+        80.0,
+        8.0
+      ],
+      "volume_mm3": 61490.9,
+      "mass_g": 166.0,
+      "step": "parts/link1/link1_motor_bracket_left.step",
+      "sha256": "89ee91569cc3184f497ea334858c7a5c8e6eaeea6d1b83abc5e807a8312f1a13"
+    },
+    {
+      "id": "link1_motor_bracket_right",
+      "link": "link1",
+      "name": "Motor bracket, right",
+      "name_zh": "电机支架右",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        110.0,
+        80.0,
+        8.0
+      ],
+      "volume_mm3": 63043.0,
+      "mass_g": 170.2,
+      "step": "parts/link1/link1_motor_bracket_right.step",
+      "sha256": "aaa856aea2cce610d6375328a0218136316c3de766ad9a1ce7b8533244f8f8a6"
+    },
+    {
+      "id": "link1_bearing_upper_cover",
+      "link": "link1",
+      "name": "Upper bearing cover",
+      "name_zh": "轴承上盖",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        90.0,
+        90.0,
+        9.0
+      ],
+      "volume_mm3": 20000.8,
+      "mass_g": 54.0,
+      "step": "parts/link1/link1_bearing_upper_cover.step",
+      "sha256": "5710500e4b12fdf9f19d027306732b53b76c993f72cb9f031f9814425b7e29e8"
+    },
+    {
+      "id": "link2_bracket_base",
+      "link": "link2",
+      "name": "Bracket base",
+      "name_zh": "支架底板",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        66.6,
+        57.0,
+        10.0
+      ],
+      "volume_mm3": 30250.7,
+      "mass_g": 81.7,
+      "step": "parts/link2/link2_bracket_base.step",
+      "sha256": "cc42ac30e4be51f2bc342070dcecaabfb2e1ff6263ef0bc567138b7d16151d75"
+    },
+    {
+      "id": "link2_side_plate",
+      "link": "link2",
+      "name": "Side plate",
+      "name_zh": "支架侧边",
+      "quantity": 2,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        181.0,
+        98.0,
+        4.0
+      ],
+      "volume_mm3": 20679.3,
+      "mass_g": 55.8,
+      "step": "parts/link2/link2_side_plate.step",
+      "sha256": "dc392f99f866df7b24633344762b8b8ca34daf43eba827e4b536777d4a172bbe"
+    },
+    {
+      "id": "link2_front_spacer",
+      "link": "link2",
+      "name": "Front spacer",
+      "name_zh": "正面垫片",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        50.0,
+        50.0,
+        4.0
+      ],
+      "volume_mm3": 6563.0,
+      "mass_g": 17.7,
+      "step": "parts/link2/link2_front_spacer.step",
+      "sha256": "f9790f792d939010e5a793168b19d6ad630aca84c48e1bc2b73be90bed280c8a"
+    },
+    {
+      "id": "link2_rear_flange",
+      "link": "link2",
+      "name": "Rear flange",
+      "name_zh": "背板法兰",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        78.0,
+        78.0,
+        9.75
+      ],
+      "volume_mm3": 22856.1,
+      "mass_g": 61.7,
+      "step": "parts/link2/link2_rear_flange.step",
+      "sha256": "6c29d24c0e2cd71e13c7b1fcdefc38a28393ea720d168453f5ea7178aaffc6d5"
+    },
+    {
+      "id": "link2_rear_spacer",
+      "link": "link2",
+      "name": "Rear spacer",
+      "name_zh": "背面垫片",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        98.0,
+        98.0,
+        5.9
+      ],
+      "volume_mm3": 20253.9,
+      "mass_g": 54.7,
+      "step": "parts/link2/link2_rear_spacer.step",
+      "sha256": "c7feaefe178e31ea2b9a83fda8b9cfb93d918bb6b7ad49c0d1ea551dc64e7889"
+    },
+    {
+      "id": "link2_rear_outer_ring_spacer",
+      "link": "link2",
+      "name": "Rear outer-ring spacer",
+      "name_zh": "背面外圈垫",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        98.0,
+        95.24,
+        11.2
+      ],
+      "volume_mm3": 9920.6,
+      "mass_g": 26.8,
+      "step": "parts/link2/link2_rear_outer_ring_spacer.step",
+      "sha256": "9334e81676a4554043b5846362d72648c868cf60b7369c1ee975f97eedaff58a"
+    },
+    {
+      "id": "link2_output_shaft_spacer",
+      "link": "link2",
+      "name": "Output shaft spacer",
+      "name_zh": "输出轴垫片",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        37.0,
+        37.0,
+        4.0
+      ],
+      "volume_mm3": 3018.1,
+      "mass_g": 8.1,
+      "step": "parts/link2/link2_output_shaft_spacer.step",
+      "sha256": "0df9c8ef54f810490fdc18b3baa9fd1e6707b7eebe876fa003589eb530883735"
+    },
+    {
+      "id": "link2_output_outer_ring_spacer",
+      "link": "link2",
+      "name": "Output outer-ring spacer",
+      "name_zh": "输出轴外圈垫",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        98.0,
+        98.0,
+        8.7
+      ],
+      "volume_mm3": 17769.7,
+      "mass_g": 48.0,
+      "step": "parts/link2/link2_output_outer_ring_spacer.step",
+      "sha256": "3290d4aeb251ddf5748ef908a476e2f7188daaf82e6457b10084e3cf5b7a68ed"
+    },
+    {
+      "id": "link2_limit_stop_left",
+      "link": "link2",
+      "name": "Limit stop, left",
+      "name_zh": "限位块左",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        50.0,
+        29.47,
+        12.0
+      ],
+      "volume_mm3": 9767.6,
+      "mass_g": 26.4,
+      "step": "parts/link2/link2_limit_stop_left.step",
+      "sha256": "85f0cf621ecbd909c09e89f4e479b0ca5a85b70ec6adbdae343708b1518d7b98"
+    },
+    {
+      "id": "link2_limit_stop_right",
+      "link": "link2",
+      "name": "Limit stop, right",
+      "name_zh": "限位块右",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        50.0,
+        29.47,
+        12.0
+      ],
+      "volume_mm3": 9767.6,
+      "mass_g": 26.4,
+      "step": "parts/link2/link2_limit_stop_right.step",
+      "sha256": "73fa66cd578726fd0ad19ee69ee11dd1a4a74d41da51111e44d1513037b2109e"
+    },
+    {
+      "id": "link3_frame_base",
+      "link": "link3",
+      "name": "Frame base",
+      "name_zh": "骨架底板",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        60.0,
+        57.0,
+        10.0
+      ],
+      "volume_mm3": 27229.0,
+      "mass_g": 73.5,
+      "step": "parts/link3/link3_frame_base.step",
+      "sha256": "9c1d451ead1473eba69f3cf32abd3b92de37cc972c43f0135603438ef15ecefc"
+    },
+    {
+      "id": "link3_side_plate_left",
+      "link": "link3",
+      "name": "Side plate, left",
+      "name_zh": "骨架侧边左",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        128.5,
+        88.5,
+        4.0
+      ],
+      "volume_mm3": 18915.5,
+      "mass_g": 51.1,
+      "step": "parts/link3/link3_side_plate_left.step",
+      "sha256": "677116bb56bdf5864ede82f04c04344e3533671107e896d9181e8d29d4b841ef"
+    },
+    {
+      "id": "link3_side_plate_right",
+      "link": "link3",
+      "name": "Side plate, right",
+      "name_zh": "骨架侧边右",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        128.5,
+        88.5,
+        4.0
+      ],
+      "volume_mm3": 18915.5,
+      "mass_g": 51.1,
+      "step": "parts/link3/link3_side_plate_right.step",
+      "sha256": "8befcdf3506c49cb3fe68e3087a787fcf3989f913e4755c011ad4a0992b7c59e"
+    },
+    {
+      "id": "link3_rear_flange",
+      "link": "link3",
+      "name": "Rear flange",
+      "name_zh": "背面法兰",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        34.8,
+        34.8,
+        9.75
+      ],
+      "volume_mm3": 4181.4,
+      "mass_g": 11.3,
+      "step": "parts/link3/link3_rear_flange.step",
+      "sha256": "5a0b1befdb1cc4cb8f3fd9c1d3ae863c76a23461dded48a4f2065cc602bc20bc"
+    },
+    {
+      "id": "link3_rear_bearing_housing",
+      "link": "link3",
+      "name": "Rear bearing housing",
+      "name_zh": "背面轴承座",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        57.0,
+        57.0,
+        5.0
+      ],
+      "volume_mm3": 9753.4,
+      "mass_g": 26.3,
+      "step": "parts/link3/link3_rear_bearing_housing.step",
+      "sha256": "a3e5e70bd20fab2442d748f09c961118518e22545a350cc887229262eef2e233"
+    },
+    {
+      "id": "link3_output_shaft_spacer",
+      "link": "link3",
+      "name": "Output shaft spacer",
+      "name_zh": "输出轴垫片",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        37.0,
+        37.0,
+        4.0
+      ],
+      "volume_mm3": 3103.4,
+      "mass_g": 8.4,
+      "step": "parts/link3/link3_output_shaft_spacer.step",
+      "sha256": "2c4b1cc2fa313e3115ac5108da805d7ab0ed640977cce12a12a9dcb0d6df085e"
+    },
+    {
+      "id": "link4_frame_base",
+      "link": "link4",
+      "name": "Frame base",
+      "name_zh": "骨架底板",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        71.25,
+        57.0,
+        10.0
+      ],
+      "volume_mm3": 29520.2,
+      "mass_g": 79.7,
+      "step": "parts/link4/link4_frame_base.step",
+      "sha256": "235e721298c8ce7d8836fac4f1eb67e15843269da73f58e6510b4b8d35be9fad"
+    },
+    {
+      "id": "link4_side_plate_left",
+      "link": "link4",
+      "name": "Side plate, left",
+      "name_zh": "骨架左",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        79.0,
+        73.5,
+        4.0
+      ],
+      "volume_mm3": 10968.5,
+      "mass_g": 29.6,
+      "step": "parts/link4/link4_side_plate_left.step",
+      "sha256": "425da8a9106e9582cf08c7295e19e8989ec9ae6a70a9cea6bb8c75d3d473d1bd"
+    },
+    {
+      "id": "link4_side_plate_right",
+      "link": "link4",
+      "name": "Side plate, right",
+      "name_zh": "骨架右",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        79.0,
+        73.5,
+        4.0
+      ],
+      "volume_mm3": 10968.5,
+      "mass_g": 29.6,
+      "step": "parts/link4/link4_side_plate_right.step",
+      "sha256": "67399ae54c79457fbc3e9f5ee0f241748c90fb2782ee2a5c540d1590d11eaf69"
+    },
+    {
+      "id": "link4_output_shaft_spacer",
+      "link": "link4",
+      "name": "Output shaft spacer",
+      "name_zh": "输出轴垫片",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        37.0,
+        37.0,
+        4.0
+      ],
+      "volume_mm3": 3018.1,
+      "mass_g": 8.1,
+      "step": "parts/link4/link4_output_shaft_spacer.step",
+      "sha256": "19d002deaa087aec8910d68309d706d744191dbb7aadc48a09bb971e9322cfa8"
+    },
+    {
+      "id": "link5_frame_base",
+      "link": "link5",
+      "name": "Frame base",
+      "name_zh": "骨架底板",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        50.0,
+        37.0,
+        10.0
+      ],
+      "volume_mm3": 14624.2,
+      "mass_g": 39.5,
+      "step": "parts/link5/link5_frame_base.step",
+      "sha256": "ba31ce22172dbd1224562d21656fe414ddb4d3f5988c2c1b6af59b16431b4899"
+    },
+    {
+      "id": "link5_side_plate",
+      "link": "link5",
+      "name": "Side plate",
+      "name_zh": "骨架侧边",
+      "quantity": 2,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        114.5,
+        57.0,
+        4.0
+      ],
+      "volume_mm3": 10831.5,
+      "mass_g": 29.2,
+      "step": "parts/link5/link5_side_plate.step",
+      "sha256": "077e8eb2bd0cf41b1e80fa4584714e5f075ae6ab6c34194d71a02903974439bf"
+    },
+    {
+      "id": "link5_rear_flange",
+      "link": "link5",
+      "name": "Rear flange",
+      "name_zh": "背面法兰",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        34.8,
+        34.8,
+        9.75
+      ],
+      "volume_mm3": 4181.4,
+      "mass_g": 11.3,
+      "step": "parts/link5/link5_rear_flange.step",
+      "sha256": "17ca6aa0c2235a2f8b78398156b2a32c004efa5801e4bdb0f458f34f694fa460"
+    },
+    {
+      "id": "link5_bearing_housing",
+      "link": "link5",
+      "name": "Bearing housing",
+      "name_zh": "轴承座",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        57.0,
+        57.0,
+        5.0
+      ],
+      "volume_mm3": 9753.4,
+      "mass_g": 26.3,
+      "step": "parts/link5/link5_bearing_housing.step",
+      "sha256": "539c2b4e64ed63893752df8c64fdaec910205a564f0e50be5d6b847e82f98526"
+    },
+    {
+      "id": "link5_output_shaft_spacer",
+      "link": "link5",
+      "name": "Output shaft spacer",
+      "name_zh": "输出轴垫片",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        37.0,
+        37.0,
+        4.0
+      ],
+      "volume_mm3": 3018.1,
+      "mass_g": 8.1,
+      "step": "parts/link5/link5_output_shaft_spacer.step",
+      "sha256": "d9d237804deaff50706edf96e8b3f04a15f270e4ea1a44e78a975de213b8e676"
+    },
+    {
+      "id": "link6_yoke_base",
+      "link": "link6",
+      "name": "Yoke base",
+      "name_zh": "转轴连接件底板",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        60.75,
+        50.0,
+        10.0
+      ],
+      "volume_mm3": 24107.8,
+      "mass_g": 65.1,
+      "step": "parts/link6/link6_yoke_base.step",
+      "sha256": "78fcb8b2b6d36e2be23bf04ff0ff80e8b186af5408424c22f275f1794683d126"
+    },
+    {
+      "id": "link6_yoke_arm_1",
+      "link": "link6",
+      "name": "Yoke arm 1",
+      "name_zh": "转轴连接件1",
+      "quantity": 2,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        71.5,
+        37.0,
+        4.0
+      ],
+      "volume_mm3": 9327.9,
+      "mass_g": 25.2,
+      "step": "parts/link6/link6_yoke_arm_1.step",
+      "sha256": "faba2a6fa51813861c42bf7962e4f3144893b43f0952514f7fb3cd22cc157150"
+    },
+    {
+      "id": "link6_yoke_arm_2",
+      "link": "link6",
+      "name": "Yoke arm 2",
+      "name_zh": "转轴连接件2",
+      "quantity": 2,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        81.5,
+        57.0,
+        4.0
+      ],
+      "volume_mm3": 11387.6,
+      "mass_g": 30.7,
+      "step": "parts/link6/link6_yoke_arm_2.step",
+      "sha256": "d26131b77214bd9955a23913c6e1d9ecd34f84110e7a50e8a75e0d0948b703c4"
+    },
+    {
+      "id": "link6_rear_flange",
+      "link": "link6",
+      "name": "Rear flange",
+      "name_zh": "背面法兰",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        34.8,
+        34.8,
+        9.75
+      ],
+      "volume_mm3": 4181.4,
+      "mass_g": 11.3,
+      "step": "parts/link6/link6_rear_flange.step",
+      "sha256": "880271712179b6fc1e06e4c27c55e1f1133908d218efebc5bbbb195f0dd3bc93"
+    },
+    {
+      "id": "link6_bearing_housing",
+      "link": "link6",
+      "name": "Bearing housing",
+      "name_zh": "轴承座",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        57.0,
+        57.0,
+        5.0
+      ],
+      "volume_mm3": 9753.4,
+      "mass_g": 26.3,
+      "step": "parts/link6/link6_bearing_housing.step",
+      "sha256": "db5f5d36d8cbf0f25b10576571f1de1bf44d139aba449c9b0141b7d2ae1d4e60"
+    },
+    {
+      "id": "link6_output_shaft_spacer",
+      "link": "link6",
+      "name": "Output shaft spacer",
+      "name_zh": "输出轴垫片",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        37.0,
+        37.0,
+        4.0
+      ],
+      "volume_mm3": 3018.1,
+      "mass_g": 8.1,
+      "step": "parts/link6/link6_output_shaft_spacer.step",
+      "sha256": "1f80bb1dee2d09bad7fe9b4b8ca8eb75df8b6a2fe68d7fafff2045df55d28966"
+    },
+    {
+      "id": "link7_end_bracket_base",
+      "link": "link7",
+      "name": "End bracket base",
+      "name_zh": "末端连接件底板",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        60.75,
+        57.0,
+        10.0
+      ],
+      "volume_mm3": 27042.4,
+      "mass_g": 73.0,
+      "step": "parts/link7/link7_end_bracket_base.step",
+      "sha256": "bf77de92708a6cf9a4940d4f0d0b9220898b47e0d4b0939142770e2567c0d52d"
+    },
+    {
+      "id": "link7_end_bracket_side",
+      "link": "link7",
+      "name": "End bracket side",
+      "name_zh": "末端连接件侧边",
+      "quantity": 2,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        71.5,
+        37.0,
+        4.0
+      ],
+      "volume_mm3": 8840.9,
+      "mass_g": 23.9,
+      "step": "parts/link7/link7_end_bracket_side.step",
+      "sha256": "62136b9754bfd98c04fb95864f4fba940e470c44a97842ac4b63b64711268c74"
+    },
+    {
+      "id": "link7_limit_stop_left",
+      "link": "link7",
+      "name": "Limit stop, left",
+      "name_zh": "限位块左",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        51.49,
+        37.0,
+        3.0
+      ],
+      "volume_mm3": 4809.6,
+      "mass_g": 13.0,
+      "step": "parts/link7/link7_limit_stop_left.step",
+      "sha256": "c705cb5d359907e430a85759957a6dcfec28ef6648f1139ff5be38a8e29e7778"
+    },
+    {
+      "id": "link7_limit_stop_right",
+      "link": "link7",
+      "name": "Limit stop, right",
+      "name_zh": "限位块右",
+      "quantity": 1,
+      "material": "6061 aluminium",
+      "envelope_mm": [
+        51.49,
+        37.0,
+        3.0
+      ],
+      "volume_mm3": 4809.6,
+      "mass_g": 13.0,
+      "step": "parts/link7/link7_limit_stop_right.step",
+      "sha256": "881a9e3f790b44aa8257570a51683467ca315664bf3a470e20078d364af25d95"
+    }
+  ]
+}

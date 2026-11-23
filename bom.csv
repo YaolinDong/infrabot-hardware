@@ -1,0 +1,47 @@
+item,category,description,location,quantity,material,envelope_mm,mass_each_g,file
+baselink_base_plate,machined,Base plate,baselink,1,6061 aluminium,200 x 110 x 14,741.6,parts/baselink/baselink_base_plate.step
+baselink_housing,machined,Base housing,baselink,1,6061 aluminium,114 x 114 x 59.7,154.7,parts/baselink/baselink_housing.step
+baselink_bearing_lower_cover,machined,Lower bearing cover,baselink,1,6061 aluminium,114 x 114 x 8.5,91.7,parts/baselink/baselink_bearing_lower_cover.step
+baselink_top_cover,machined,Top cover,baselink,1,6061 aluminium,114 x 114 x 5,51.2,parts/baselink/baselink_top_cover.step
+link1_motor_bracket_base,machined,Motor bracket base,link1,1,6061 aluminium,80 x 76.6 x 10,157.0,parts/link1/link1_motor_bracket_base.step
+link1_motor_bracket_left,machined,"Motor bracket, left",link1,1,6061 aluminium,110 x 80 x 8,166.0,parts/link1/link1_motor_bracket_left.step
+link1_motor_bracket_right,machined,"Motor bracket, right",link1,1,6061 aluminium,110 x 80 x 8,170.2,parts/link1/link1_motor_bracket_right.step
+link1_bearing_upper_cover,machined,Upper bearing cover,link1,1,6061 aluminium,90 x 90 x 9,54.0,parts/link1/link1_bearing_upper_cover.step
+link2_bracket_base,machined,Bracket base,link2,1,6061 aluminium,66.6 x 57 x 10,81.7,parts/link2/link2_bracket_base.step
+link2_side_plate,machined,Side plate,link2,2,6061 aluminium,181 x 98 x 4,55.8,parts/link2/link2_side_plate.step
+link2_front_spacer,machined,Front spacer,link2,1,6061 aluminium,50 x 50 x 4,17.7,parts/link2/link2_front_spacer.step
+link2_rear_flange,machined,Rear flange,link2,1,6061 aluminium,78 x 78 x 9.75,61.7,parts/link2/link2_rear_flange.step
+link2_rear_spacer,machined,Rear spacer,link2,1,6061 aluminium,98 x 98 x 5.9,54.7,parts/link2/link2_rear_spacer.step
+link2_rear_outer_ring_spacer,machined,Rear outer-ring spacer,link2,1,6061 aluminium,98 x 95.24 x 11.2,26.8,parts/link2/link2_rear_outer_ring_spacer.step
+link2_output_shaft_spacer,machined,Output shaft spacer,link2,1,6061 aluminium,37 x 37 x 4,8.1,parts/link2/link2_output_shaft_spacer.step
+link2_output_outer_ring_spacer,machined,Output outer-ring spacer,link2,1,6061 aluminium,98 x 98 x 8.7,48.0,parts/link2/link2_output_outer_ring_spacer.step
+link2_limit_stop_left,machined,"Limit stop, left",link2,1,6061 aluminium,50 x 29.47 x 12,26.4,parts/link2/link2_limit_stop_left.step
+link2_limit_stop_right,machined,"Limit stop, right",link2,1,6061 aluminium,50 x 29.47 x 12,26.4,parts/link2/link2_limit_stop_right.step
+link3_frame_base,machined,Frame base,link3,1,6061 aluminium,60 x 57 x 10,73.5,parts/link3/link3_frame_base.step
+link3_side_plate_left,machined,"Side plate, left",link3,1,6061 aluminium,128.5 x 88.5 x 4,51.1,parts/link3/link3_side_plate_left.step
+link3_side_plate_right,machined,"Side plate, right",link3,1,6061 aluminium,128.5 x 88.5 x 4,51.1,parts/link3/link3_side_plate_right.step
+link3_rear_flange,machined,Rear flange,link3,1,6061 aluminium,34.8 x 34.8 x 9.75,11.3,parts/link3/link3_rear_flange.step
+link3_rear_bearing_housing,machined,Rear bearing housing,link3,1,6061 aluminium,57 x 57 x 5,26.3,parts/link3/link3_rear_bearing_housing.step
+link3_output_shaft_spacer,machined,Output shaft spacer,link3,1,6061 aluminium,37 x 37 x 4,8.4,parts/link3/link3_output_shaft_spacer.step
+link4_frame_base,machined,Frame base,link4,1,6061 aluminium,71.25 x 57 x 10,79.7,parts/link4/link4_frame_base.step
+link4_side_plate_left,machined,"Side plate, left",link4,1,6061 aluminium,79 x 73.5 x 4,29.6,parts/link4/link4_side_plate_left.step
+link4_side_plate_right,machined,"Side plate, right",link4,1,6061 aluminium,79 x 73.5 x 4,29.6,parts/link4/link4_side_plate_right.step
+link4_output_shaft_spacer,machined,Output shaft spacer,link4,1,6061 aluminium,37 x 37 x 4,8.1,parts/link4/link4_output_shaft_spacer.step
+link5_frame_base,machined,Frame base,link5,1,6061 aluminium,50 x 37 x 10,39.5,parts/link5/link5_frame_base.step
+link5_side_plate,machined,Side plate,link5,2,6061 aluminium,114.5 x 57 x 4,29.2,parts/link5/link5_side_plate.step
+link5_rear_flange,machined,Rear flange,link5,1,6061 aluminium,34.8 x 34.8 x 9.75,11.3,parts/link5/link5_rear_flange.step
+link5_bearing_housing,machined,Bearing housing,link5,1,6061 aluminium,57 x 57 x 5,26.3,parts/link5/link5_bearing_housing.step
+link5_output_shaft_spacer,machined,Output shaft spacer,link5,1,6061 aluminium,37 x 37 x 4,8.1,parts/link5/link5_output_shaft_spacer.step
+link6_yoke_base,machined,Yoke base,link6,1,6061 aluminium,60.75 x 50 x 10,65.1,parts/link6/link6_yoke_base.step
+link6_yoke_arm_1,machined,Yoke arm 1,link6,2,6061 aluminium,71.5 x 37 x 4,25.2,parts/link6/link6_yoke_arm_1.step
+link6_yoke_arm_2,machined,Yoke arm 2,link6,2,6061 aluminium,81.5 x 57 x 4,30.7,parts/link6/link6_yoke_arm_2.step
+link6_rear_flange,machined,Rear flange,link6,1,6061 aluminium,34.8 x 34.8 x 9.75,11.3,parts/link6/link6_rear_flange.step
+link6_bearing_housing,machined,Bearing housing,link6,1,6061 aluminium,57 x 57 x 5,26.3,parts/link6/link6_bearing_housing.step
+link6_output_shaft_spacer,machined,Output shaft spacer,link6,1,6061 aluminium,37 x 37 x 4,8.1,parts/link6/link6_output_shaft_spacer.step
+link7_end_bracket_base,machined,End bracket base,link7,1,6061 aluminium,60.75 x 57 x 10,73.0,parts/link7/link7_end_bracket_base.step
+link7_end_bracket_side,machined,End bracket side,link7,2,6061 aluminium,71.5 x 37 x 4,23.9,parts/link7/link7_end_bracket_side.step
+link7_limit_stop_left,machined,"Limit stop, left",link7,1,6061 aluminium,51.49 x 37 x 3,13.0,parts/link7/link7_limit_stop_left.step
+link7_limit_stop_right,machined,"Limit stop, right",link7,1,6061 aluminium,51.49 x 37 x 3,13.0,parts/link7/link7_limit_stop_right.step
+motor_dm8009p,purchased,Damiao DM8009P joint motor,"J1, J2",2,,,,
+motor_dm_j4340p,purchased,Damiao DM-J4340P-2EC joint motor,"J3, J4",2,,,,
+motor_dm_j4310,purchased,Damiao DM-J4310-2EC joint motor,"J5, J6, J7",3,,,,

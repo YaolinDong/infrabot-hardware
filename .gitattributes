@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+# Preserve exported CAD bytes exactly; parts.json records their SHA-256.
+*.step binary
+*.png binary

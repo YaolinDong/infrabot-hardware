@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.work/
+# Native CAD sources stay private.
+*.SLDPRT
+*.SLDASM
+*.sldprt
+*.sldasm
