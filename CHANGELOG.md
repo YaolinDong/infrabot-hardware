@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — unreleased
+## 0.1.0 — 2026-11-24
 
 - H7C assembly STEP with the joint motors.
 - STEP files for the 43 machined parts of the base and the J1–J7 links, under English names. Like the other repositories, the model has no tool flange.
